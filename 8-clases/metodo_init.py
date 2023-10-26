@@ -3,12 +3,13 @@
 
 class Usuario:
     # todas las clases heredan de la clase object (que posee el metodo init)
-    def __init__(self):
-        print("creando un usuario")
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
 
 
-user1 = Usuario()
-user2 = Usuario()
+user1 = Usuario("Javo", "12345")
+user2 = Usuario("Cody", "12345")
 
 # user1.iniciar("javo", "12345")
 # user2.iniciar("Cody", "qwerty")
