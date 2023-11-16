@@ -18,7 +18,7 @@ class Mascota(Animal):
 
 class Felino:
     def cazar(self):
-        print("el felino caza")
+        print("el felino caza y keyshortr")
 
 
 # clase herencia y multiple
